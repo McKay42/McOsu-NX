@@ -18,7 +18,7 @@ Runs on McEngine: [https://github.com/McKay42/McEngine](https://github.com/McKay
 3. Launch [HBL via the NSP version](https://gbatemp.net/threads/homebrew-menu-loader-legal-nsp.518433/) (to get full RAM access, which this game requires), and start McOsu
 
 ## How to use:
-* NOTE: You don't have to create any folder structures, everything is already prepared. Follow the guide on extracting beatmaps/skins below, and simply put them into `/switch/McOsu/Songs/` or `/switch/McOsu/Skins/` on your microSD card.
+* NOTE: You don't have to create any folder structures, everything is already prepared. Follow the guide on extracting beatmaps/skins below, and simply put them into `/switch/McOsu/Songs/` or `/switch/McOsu/Skins/` on your microSD card. Default beatmaps are already included, so just follow their structure.
 
 * How to add beatmaps/skins: https://steamcommunity.com/sharedfiles/filedetails/?id=880768265
 
