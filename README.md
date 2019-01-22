@@ -16,7 +16,7 @@ Runs on McEngine: [https://github.com/McKay42/McEngine](https://github.com/McKay
 
 ## How to install:
 1. Download the newest zip file from the releases page
-2. Merge the contents of the zip file with your microSD card (do **NOT** change any folder structures or filenames!)
+2. Merge the contents of the zip file with your microSD card (do **NOT** change any folder/file structures/names!)
 3. Launch [HBL via the NSP version](https://gbatemp.net/threads/homebrew-menu-loader-legal-nsp.518433/) (to get full RAM access, which this game requires), and start McOsu
 
 ## How to use:
