@@ -38,7 +38,7 @@ Runs on McEngine: [https://github.com/McKay42/McEngine](https://github.com/McKay
 
 * If you get stuck at 0% loading forever, then the resource loader thread could not be created. Try restarting the game, HBL, and your system, in that order. This has only happened to me once, so it shouldn't be a problem.
 
-* All speed changing mods are unavailable (DT/HT/DC/NC, Speed/BPM Multiplier, Timewarp) because the audio library does not support changing playback speed (yet).
+* All speed changing mods are unavailable (DT/HT/DC/NC, Speed/BPM Multiplier, Timewarp) because the audio library does not support varying playback speed (yet).
 
 ## Screenshots:
 ![controls](/screenshots/controls.png?raw=true)
