@@ -12,6 +12,8 @@ An unofficial open-source client for [osu!](https://osu.ppy.sh) beatmaps, with t
 
 Runs on McEngine: [https://github.com/McKay42/McEngine](https://github.com/McKay42/McEngine)
 
+(You can't compile this yet, I still have to clean everything up)
+
 ## How to install:
 1. Download the newest zip file from the releases page
 2. Merge the contents of the zip file with your microSD card (do **NOT** change any folder structures or filenames!)
