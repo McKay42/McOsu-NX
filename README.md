@@ -28,13 +28,15 @@ Runs on McEngine: [https://github.com/McKay42/McEngine](https://github.com/McKay
 
 * The game will give you a big fat warning on the main menu if it doesn't have access to enough memory (< 1 GB).
 
-* I've only tested this on firmware 5.1, with a pretty old SD setup and RajNX (which is no longer maintained), but never change a running system you know.
-
 * At least on my system, if you still launch HBL via the Album applet, then only ~400 MB out of 4 GB are available, and some of that is already used up. (This might not even be a problem anymore with newer Atmosphere/ReiNX/etc. versions.)
+
+* I have only tested this on firmware 5.1, with a pretty old SD setup and RajNX (which is no longer maintained), but never change a running system you know.
 
 * If you get audio crackling after minimizing the game or going into sleep mode: To fix it, Go to Options > Audio > "Restart SoundEngine (fix crackling)"
 
 * If you are playing beatmaps with a lot of sliders visible at the same time, and consistently getting less than 60 fps, improve performance by enabling Options > Skin > "Use slidergradient.png"
+
+* If you get stuck at 0% loading forever, then the resource loader thread could not be created. Try restarting the game, HBL, and your system, in that order. This has only happened to me once, so it shouldn't be a problem.
 
 ## Skin Credits:
 - ffffffffffffffffff - "- Jaret - Mish Mosh"
