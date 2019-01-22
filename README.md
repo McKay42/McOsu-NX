@@ -30,7 +30,7 @@ Runs on McEngine: [https://github.com/McKay42/McEngine](https://github.com/McKay
 
 * At least on my system, if you still launch HBL via the Album applet, then only ~400 MB out of 4 GB are available, and some of that is already used up. (This might not even be a problem anymore with newer Atmosphere/ReiNX/etc. versions.)
 
-* You **WILL** get audio crackling if you minimize the game, or if you go into sleep mode: To fix it, Go to Options > Audio > "Restart SoundEngine (fix crackling)"
+* If you get audio crackling after minimizing the game or going into sleep mode: To fix it, Go to Options > Audio > "Restart SoundEngine (fix crackling)"
 
 * If you are playing beatmaps with a lot of sliders visible at the same time, and consistently getting less than 60 fps, improve performance by enabling Options > Skin > "Use slidergradient.png"
 
