@@ -38,6 +38,14 @@ Runs on McEngine: [https://github.com/McKay42/McEngine](https://github.com/McKay
 
 * If you get stuck at 0% loading forever, then the resource loader thread could not be created. Try restarting the game, HBL, and your system, in that order. This has only happened to me once, so it shouldn't be a problem.
 
+## Screenshots:
+![controls](/screenshots/controls.png?raw=true)
+![screenshot1](/screenshots/screen1.png?raw=true)
+![screenshot2](/screenshots/screen2.png?raw=true)
+![screenshot3](/screenshots/screen3.png?raw=true)
+![screenshot4](/screenshots/screen4.png?raw=true)
+![screenshot5](/screenshots/screen5.png?raw=true)
+
 ## Skin Credits:
 - ffffffffffffffffff - "- Jaret - Mish Mosh"
 - irrlux - "Talrava XIV"
@@ -49,7 +57,3 @@ Runs on McEngine: [https://github.com/McKay42/McEngine](https://github.com/McKay
 - _Easy_ - "Burning_Crow V2"
 - Icomoon
 - Freepik
-
-## Screenshots:
-
-TODO
