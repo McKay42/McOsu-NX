@@ -6,13 +6,13 @@
 
 **Discord** (Feedback, Requests, Bug reports, etc.): https://discord.gg/3UQnt7X
 
-This repository is for the **Nintendo Switch** port, for the Desktop version see https://github.com/McKay42/McOsu/
+This repository is for the **Nintendo Switch** port. For the game code and Desktop version see https://github.com/McKay42/McOsu/
 
 An unofficial open-source client for [osu!](https://osu.ppy.sh) beatmaps, with the main focus on making practicing easier and customizing gameplay.
 
 Runs on McEngine: [https://github.com/McKay42/McEngine](https://github.com/McKay42/McEngine)
 
-(You can't compile this yet, I still have to clean everything up)
+(McOsu-NX is a delta repository, i.e. everything you need in addition to the engine code and game code)
 
 ## How to install:
 1. Download the newest zip file from the releases page
