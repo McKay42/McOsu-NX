@@ -6,7 +6,8 @@
 
 **Discord** (Feedback, Requests, Bug reports, etc.): https://discord.gg/3UQnt7X
 
-This repository is for the **Nintendo Switch** port. For the game code and Desktop version see https://github.com/McKay42/McOsu/
+This repository is for the **Nintendo Switch** port.  
+For the game code and Desktop version see https://github.com/McKay42/McOsu/
 
 An unofficial open-source client for [osu!](https://osu.ppy.sh) beatmaps, with the main focus on making practicing easier and customizing gameplay.
 
