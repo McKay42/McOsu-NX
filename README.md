@@ -13,8 +13,6 @@ An unofficial open-source client for [osu!](https://osu.ppy.sh) beatmaps, with t
 
 Runs on McEngine: [https://github.com/McKay42/McEngine](https://github.com/McKay42/McEngine)
 
-(McOsu-NX is a delta repository, i.e. everything you need in addition to the engine code and game code)
-
 ## How to install:
 1. Download the newest zip file from the releases page
 2. Merge the contents of the zip file with your microSD card (do **NOT** change any folder/file structures/names!)
@@ -48,6 +46,17 @@ Runs on McEngine: [https://github.com/McKay42/McEngine](https://github.com/McKay
 ![screenshot3](/screenshots/screen3.png?raw=true)
 ![screenshot4](/screenshots/screen4.png?raw=true)
 ![screenshot5](/screenshots/screen5.png?raw=true)
+
+## How to compile:
+* McOsu-NX is a delta repository, i.e. everything you need in addition to the engine code and game code
+
+* I'm using my own custom build of SDL2 and SDL2 Mixer to massively decrease audio latency and support a few other necessary features like scrubbing
+
+* SDL2 audio uses `audout` instead of `audren` (i.e. [this is very bad for rhythm games](https://github.com/devkitPro/SDL/pull/31/files#diff-fa4ab70fa825f9880b736aed35fd4f2a))
+
+* SDL2 Mixer includes Ext (`SDL_mixer_ext.h`) functionality
+
+* Just overwrite your devkitpro portlib content temporarily for compiling
 
 ## Skin Credits:
 - ffffffffffffffffff - "- Jaret - Mish Mosh"
