@@ -66,7 +66,7 @@ ROMFS		:=	romfs
 
 APP_TITLE	:=	McOsu
 APP_AUTHOR	:=	McKay
-APP_VERSION	:=	29.3
+APP_VERSION	:=	31.08
 ICON		:=	icon.jpg
 
 #---------------------------------------------------------------------------------
