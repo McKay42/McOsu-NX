@@ -52,9 +52,11 @@ Runs on McEngine: [https://github.com/McKay42/McEngine](https://github.com/McKay
 
 * I'm using my own custom build of SDL2 and SDL2 Mixer to massively decrease audio latency and support a few other necessary features like scrubbing
 
-* SDL2 audio uses `audout` instead of `audren` (i.e. [this is very bad for rhythm games](https://github.com/devkitPro/SDL/pull/31/files#diff-fa4ab70fa825f9880b736aed35fd4f2a))
+* SDL2 audio uses `audout` instead of `audren`
 
 * SDL2 Mixer includes Ext (`SDL_mixer_ext.h`) functionality
+
+* SDL2 has fixed multitouch handling (broken in the current public devkitpro repos at the time of writing)
 
 * Just overwrite your devkitpro portlib content temporarily for compiling
 

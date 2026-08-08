@@ -66,13 +66,13 @@ ROMFS		:=	romfs
 
 APP_TITLE	:=	McOsu
 APP_AUTHOR	:=	McKay
-APP_VERSION	:=	33.10
+APP_VERSION	:=	33.14
 ICON		:=	icon.jpg
 
 #---------------------------------------------------------------------------------
 # options for code generation
 #---------------------------------------------------------------------------------
-ARCH	:=	-march=armv8-a -mtune=cortex-a57 -mtp=soft -fPIE
+ARCH	:=	-march=armv8-a+crc+crypto -mtune=cortex-a57 -mtp=soft -fPIE
 
 CFLAGS	:=	-g -w -O3 -ffunction-sections \
 			$(ARCH) $(DEFINES)
@@ -91,11 +91,12 @@ LDFLAGS	=	-specs=$(DEVKITPRO)/libnx/switch.specs -g $(ARCH) -Wl,-Map,$(notdir $*
 
 LIBS	:=	-lEGL -lGLESv2 -lglapi -ldrm_nouveau \
 			-lnx -lm \
-			-lSDL2 -lSDL2_mixer \
-			-lvorbis -lvorbisidec -lvorbisfile -lmodplug -lmpg123 -logg \
-			-lfreetype -lbz2 -lpng -lz -ljpeg \
-			`sdl2-config --libs` \
-			`freetype-config --libs`
+			-lSDL2_mixer -lvorbisfile -lvorbis -logg \
+			-lopus -lopusfile -lopusurl -lvorbisidec \
+			-lmodplug -lmpg123 \
+			-lSDL2 \
+			-lfreetype -lharfbuzz -lbz2 -lpng -lz -ljpeg \
+			`sdl2-config --libs`
 
 #---------------------------------------------------------------------------------
 # list of directories containing libraries, this must be the top level containing
